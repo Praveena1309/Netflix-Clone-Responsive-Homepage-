@@ -1,0 +1,258 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #fff;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+.bg-image{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./pics/bg.jpg);
+    border-bottom: 8px solid #222;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    border-bottom: 8px solid #222;
+}
+.image{
+    width: 170px;
+}
+
+.language{
+    background: rgba(0,0,0,.4);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 5px 10px 19px;
+    align-items: center;
+    margin-right: 45px;
+    cursor: pointer;
+}
+#globe{
+    position: absolute;
+    padding: 7px 9px 0  4px ;
+    border: none;
+}
+.signin{
+    background-color: red;
+    color: white;
+    border-color:  red ;
+    border-radius: 4px;
+    padding: 6px 13px;
+    align-items: center;
+    margin-left: -45px;
+}
+.title {
+    font-size: 60px;
+    font-weight:bold;
+    max-width: 700px;    
+    margin-top: 110px;
+    margin: auto;
+
+}
+.title1{
+    font-size: 30px;
+   
+}
+.title2{
+    font-size: 20px;
+    
+}
+.email{
+    width: 342px;
+    height: 50px;
+}
+
+.start-button {
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding: 11px 25px;
+    margin: -4px;
+    
+}
+
+.sec-text h1{
+    font-weight:bold;
+    font-size: 46px;
+
+}
+.sec-img{
+    margin: auto;
+}
+hr{
+    border: 5px solid gray;
+    
+}
+/* question and answer */
+.frequently{
+    position: relative;
+    top: 30px;
+}
+.faq{
+    font-weight:bold;
+    font-size: 46px;
+}
+.Questions{
+    margin: 60px auto;
+    width:100%;
+    max-width: 850px;
+
+}
+.Questions li{
+    list-style: none;
+    width:100%;
+    padding: 4px;
+}
+.Questions li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+ label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+ }
+ input[type="radio"]{
+    display: none;
+ }
+ .Questions .answer{
+    background: #303030;
+    text-align: left;
+    font-size: 25px;
+    padding: 0 20px;
+    max-height: 0 ;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+ }
+ .Questions input[type="radio"]:checked + label + .answer{
+    max-height: 600px;
+    padding: 30px 20px;
+
+ }
+ .Questions input[type="radio"]:checked + label::after {
+    transform: rotate(135deg);
+
+ }
+
+
+/* footer */
+.footer{
+    padding: 50px 15% 10px;
+    color: #777;
+ }
+ .footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+ }
+ .footer .col-4{
+    flex-basis: 25%;
+    flex-grow: 1 ;
+    margin-bottom: 20px;
+ }
+ .footer .col-4 a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+ }
+ .footer .row{
+    align-items: flex-start;
+    padding: 10px 0 ;
+ }
+ .english-last{
+    background-color: transparent;
+    color: #777;
+    border: 1px solid #777;
+    border-radius: 3px;
+    padding: 8px 0 10px 22px;
+    align-items: center;
+    margin-right: 45px;
+    cursor: pointer;
+
+ }
+ .optlast{
+    background: black;
+ }
+ .copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+
+/* meadia query  */
+
+@media only screen and (max-width: 768px){
+    
+    .image{
+        width: 100px;
+    }
+    .title{
+        font-size: 45px;
+        max-width: 500px;    
+        margin-top: 110px;
+        margin: auto;
+        position: relative;
+        bottom: 50px;
+    }
+    .title1{
+        font-size: 24px;
+        position: relative;
+        bottom: 50px;
+    }
+    .title2{
+        font-size: 24px;
+         max-width: 480px;
+         margin: auto;
+         position: relative;
+         bottom: 50px;
+         
+    }
+    .email{
+        margin-top: 2px;
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    .start-button{
+        
+            font-size: 20px;
+            padding: 1px 1px 4px 2px;
+            margin: -4px;
+            height: 50px;
+            width: 150px;
+    }     
+    .sec-head{
+        text-align: center;
+        margin-top: 0;
+    }   
+    .sec-text h1{
+        font-size: 30px;
+    }
+    .sec-text p{
+        font-size: 20px;
+    }
+    .sec-img{
+        width: 80%;
+    }  
+    .frequently h1{
+        font-size: 30px;
+    }
+    .end-start{
+        margin: 15px 50px -30px 50px;
+        font-size: 20px;
+    }
+   
+
+}
