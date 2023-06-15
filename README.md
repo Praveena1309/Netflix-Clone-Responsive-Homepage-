@@ -5,6 +5,6 @@ Netflix Clone - Online Streaming Platform Replica with Responsive Design. Develo
 ![Screenshot (67)](https://github.com/Praveena1309/Netflix-Clone-Responsive-Homepage-/assets/121342359/000a5102-245f-4764-81e4-339f98817ef1)
 ![Screenshot (68)](https://github.com/Praveena1309/Netflix-Clone-Responsive-Homepage-/assets/121342359/c3cf3d17-5fe6-49ea-8ae8-05284f2ba51a)
 ![Screenshot (69)](https://github.com/Praveena1309/Netflix-Clone-Responsive-Homepage-/assets/121342359/a7698aa4-006d-4519-a2a8-05a0b0168d30)
-![Screenshot (70)](https://github.com/Praveena1309/Netflix-Clone-Responsive-Homepage-/assets/121342359/1dcc2cf4-3e62-4dc2-a2db-88e344e1702b)
-![Screenshot (71)](https://github.com/Praveena1309/Netflix-Clone-Responsive-Homepage-/assets/121342359/ed5bd2a0-035e-4138-84ae-10ebf00279a2)
+![Screenshot (70)](https://github.com/Praveena1309/Netflix-Clone-Responsive-Homepage-/assets/121342359/b9a828c2-fe34-4aad-8951-e6de6dc1aa06)
+![Screenshot (71)](https://github.com/Praveena1309/Netflix-Clone-Responsive-Homepage-/assets/121342359/f743d22a-26ca-4133-87b1-5de5ba907b71)
 
